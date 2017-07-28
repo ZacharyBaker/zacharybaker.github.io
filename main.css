@@ -1,3 +1,6 @@
+html {
+  background: rgb(245,245,245);
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +10,12 @@ a {
   cursor: pointer;
 }
 body { 
-  margin:0px;
+  margin:0px auto;
   padding:0px;
   font-family: 'Titillium Web', sans-serif;
-  background: rgb(245,245,245);
+  background: white;
   width: 100%;
+  max-width: 1000px;
 }
 
 .main__wrapper {
@@ -61,7 +65,7 @@ body {
 }
 .header__content h1 {
   color: white;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .header-name {
@@ -72,12 +76,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.header__icon-wrapper a {
+  padding: 0 3px;
+}
 .github-svg path {
   fill: #fff;
 }
-.linkedin-svg #LinkedIn {
-  fill: #fff;
-}
+
 /*============*/
 /*TOP*/
 /*============*/
@@ -97,14 +102,18 @@ body {
 
 .bio-software {
   position: relative;
-  width: 45%;
+  width: 40%;
   margin-left: 52%;
   text-align: left;
   margin-top: 30px;
 }
 
+.bio-software img {
+  width: 100%;
+}
+
 .bio-software .vertical-line {
-  height: 500px;
+  height: 700px;
   top: 40px;
   right: auto;
   left: -16px;
@@ -151,6 +160,10 @@ body {
   clip-path: polygon(0% 0%, 100% 25%, 100% 100%, 0% 75%);
 }
 .middle__content {
+  color: white;
+}
+
+.resume {
   color: white;
 }
 /*============*/
