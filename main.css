@@ -103,20 +103,21 @@ body {
 .bio-software {
   position: relative;
   width: 40%;
-  margin-left: 52%;
+  margin-left: 54%;
   text-align: left;
   margin-top: 30px;
 }
 
-.bio-software img {
-  width: 100%;
+.bio-software img, .bio-skateboard img, .bio-baseball img  {
+  width: 90%;
+  padding-top: 10px;
 }
 
 .bio-software .vertical-line {
-  height: 700px;
+  height: 760px;
   top: 40px;
   right: auto;
-  left: -16px;
+  left: -41px;
 }
 
 /*.bio_img-wrap {
@@ -126,29 +127,35 @@ body {
 }*/
 
 .bio-skateboard {
-  text-align: center;
-  margin-top: -60px;
-  margin-left: 8%;
+  margin-top: -70px;
+  margin-left: 5%;
   width: 40%;
-  /*display: inline-block;*/
-  /*width: 30%;*/
-  /*flex-basis: 40%;*/
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.bio-skateboard img {
-  width: 100%;
+.bio-skateboard .bio-content-header {
+  text-align: right;
 }
+
 .bio-baseball {
-  text-align: center;
-  margin-top: -60px;
+  position: relative;
+  text-align: left;
+  margin-top: -70px;
   width: 40%;
-  margin-left: 52%;
-  /*display: inline-block;*/
-  /*flex-basis: 40%;*/
+  margin-left: 54%;
 }
-.bio-baseball img {
-  width: 100%;
+
+.bio-baseball .vertical-line {
+  height: 200px;
+  top: 100px;
+  right: auto;
+  left: -41px;
+  height: 280px;
+  top: 240px;
+  z-index: 10;
 }
+
 
 
 /*============*/
@@ -259,6 +266,11 @@ body {
   bottom: -2px;
 }
 
+.bio-content-header {
+  border-bottom: 12px solid #dadada;
+  width: 80%;
+}
+
 
 /*================*/
 /*MEDIA QUERIES*/
@@ -271,16 +283,37 @@ body {
     text-align: center;
   }
 
-  .bio-skateboard {
+  .bio-software .bio-content-header {
+    text-align: left;
+  }
+  .bio-software p {
+    text-align: left;
+    width: 79%;
+    margin: 0 auto;
+  }
 
+  .bio-skateboard {
+    display: block;
   }
 
   .bio-baseball {
 
   }
+  .bio-baseball .vertical-line {
+    left: 50%;
+    height: 120px;
+    top: 420px;
+  }
+  .bio-baseball .bio-content-header {
+    text-align: left;
+  }
 
   .bio-software .vertical-line {
     display: none;
+  }
+
+  .bio-content-header {
+    margin: 0 auto;
   }
 
 
