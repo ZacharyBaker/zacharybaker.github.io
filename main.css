@@ -219,6 +219,9 @@ body {
 .footer__content {
   color: white;
 }
+.footer__content a {
+  color: #fff;
+}
 
 .footer:before {
   content: '';
