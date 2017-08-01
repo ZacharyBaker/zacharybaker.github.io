@@ -1,5 +1,5 @@
 html {
-  background: rgb(245,245,245);
+  background: #FFFFFF;
 }
 * {
   margin: 0;
@@ -117,7 +117,7 @@ body {
   height: 760px;
   top: 40px;
   right: auto;
-  left: -41px;
+  left: -10.5%;
 }
 
 /*.bio_img-wrap {
@@ -150,7 +150,7 @@ body {
   height: 200px;
   top: 100px;
   right: auto;
-  left: -41px;
+  left: -10.5%;
   height: 280px;
   top: 240px;
   z-index: 10;
@@ -169,19 +169,43 @@ body {
 .middle__content {
   color: white;
 }
-
-.resume {
-  color: white;
+.middle__content .section-title {
+  margin-bottom: 30px;
 }
+.resume, .linkedIn {
+  color: white;
+  text-align: center;
+}
+
+
 /*============*/
 /*BOTTOM*/
 /*============*/
 
 .bottom {
-
+  color: #202F45;
 }
 .bottom__content {
   color: #202F45;
+}
+.coming-soon {
+  text-align: center;
+}
+.bottom__content .section__content-header {
+  position: relative;
+}
+.bottom__content .section__content-header .vertical-line:first-child {
+  left: 50%;
+  top: -220px;
+  height: 200px;
+  z-index: 10;
+
+}
+.bottom__content .section__content-header .vertical-line:last-child {
+  left: 50%;
+  top: 150px;
+  z-index: 10;
+  height: 250px;
 }
 /*============*/
 /*FOOTER*/
@@ -302,7 +326,7 @@ body {
   .bio-baseball .vertical-line {
     left: 50%;
     height: 120px;
-    top: 420px;
+    top: 410px;
   }
   .bio-baseball .bio-content-header {
     text-align: left;
