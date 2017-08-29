@@ -188,9 +188,32 @@ body {
 .bottom__content {
   color: #202F45;
 }
-.coming-soon {
-  text-align: center;
+.bottom__content .projects-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
+
+.bottom__content .projects-section .project {
+  max-width: 50%;
+}
+
+.bottom__content .projects-section .project a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom__content .projects-section .project a img {
+  max-width: 100%;
+}
+
+.bottom__content .projects-section .project .proj-desc {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .bottom__content .section__content-header {
   position: relative;
 }
@@ -203,9 +226,9 @@ body {
 }
 .bottom__content .section__content-header .vertical-line:last-child {
   left: 50%;
-  top: 150px;
+  top: 480px;
   z-index: 10;
-  height: 250px;
+  height: 120px;
 }
 /*============*/
 /*FOOTER*/
