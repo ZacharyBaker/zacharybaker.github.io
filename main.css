@@ -219,8 +219,8 @@ body {
 }
 .bottom__content .section__content-header .vertical-line:first-child {
   left: 50%;
-  top: -220px;
-  height: 200px;
+  top: -90px;
+  height: 80px;
   z-index: 10;
 
 }
