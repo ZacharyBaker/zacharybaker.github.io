@@ -358,7 +358,7 @@ body {
 /*MEDIA QUERIES*/
 /*===============*/
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 /*  .bio-software, .bio-skateboard, .bio-baseball {
     width: 100%;
     margin: 30px auto;
