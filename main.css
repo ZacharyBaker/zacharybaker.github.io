@@ -15,7 +15,6 @@ body {
   font-family: 'Titillium Web', sans-serif;
   background: white;
   width: 100%;
-  max-width: 1000px;
 }
 
 .main__wrapper {
@@ -100,11 +99,48 @@ body {
 }
 
 
-.bio-software {
+.bio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bio-subcontent {
+  max-width: 40%;
+  min-width: 40%;
+  max-height: 400px;
+  margin: 20px 20px 50px;
+}
+
+.bio-subcontent img {
+  width: 90%;
+  max-height: 90%;
+}
+
+.blue-wrap {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  background: #213044;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-wrap {
+  width: 90%;
+  height: 90%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*.bio-software {
   position: relative;
   width: 40%;
-  margin-left: 54%;
-  text-align: left;
   margin-top: 30px;
 }
 
@@ -118,7 +154,7 @@ body {
   top: 40px;
   right: auto;
   left: -10.5%;
-}
+}*/
 
 /*.bio_img-wrap {
   display: flex;
@@ -126,9 +162,7 @@ body {
   align-items: center;
 }*/
 
-.bio-skateboard {
-  margin-top: -70px;
-  margin-left: 5%;
+/*.bio-skateboard {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -141,9 +175,7 @@ body {
 .bio-baseball {
   position: relative;
   text-align: left;
-  margin-top: -70px;
   width: 40%;
-  margin-left: 54%;
 }
 
 .bio-baseball .vertical-line {
@@ -154,7 +186,7 @@ body {
   height: 280px;
   top: 240px;
   z-index: 10;
-}
+}*/
 
 
 
@@ -326,30 +358,30 @@ body {
 /*MEDIA QUERIES*/
 /*===============*/
 
-@media (max-width: 400px) {
-  .bio-software, .bio-skateboard, .bio-baseball {
+@media (max-width: 500px) {
+/*  .bio-software, .bio-skateboard, .bio-baseball {
     width: 100%;
     margin: 30px auto;
     text-align: center;
-  }
+  }*/
 
-  .bio-software .bio-content-header {
+/*  .bio-software .bio-content-header {
     text-align: left;
   }
   .bio-software p {
     text-align: left;
     width: 79%;
     margin: 0 auto;
-  }
+  }*/
 
-  .bio-skateboard {
+/*  .bio-skateboard {
     display: block;
   }
 
   .bio-baseball {
 
-  }
-  .bio-baseball .vertical-line {
+  }*/
+/*  .bio-baseball .vertical-line {
     left: 50%;
     height: 120px;
     top: 410px;
@@ -360,6 +392,11 @@ body {
 
   .bio-software .vertical-line {
     display: none;
+  }*/
+
+  .bio-subcontent {
+    max-width: 80%;
+    min-width: 80%;
   }
 
   .bio-content-header {
