@@ -10,7 +10,7 @@ body {
   margin:0px auto;
   padding:0px;
   font-family: 'Titillium Web', sans-serif;
-  background: white;
+  background: #9AC3C8;
   width: 100%;
 }
 
@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #fff;
 }
 
 .header .header-name {
@@ -48,6 +49,7 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 50px;
+  background: #fff;
 }
 
 .bottom__content {
