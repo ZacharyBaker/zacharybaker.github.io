@@ -17,6 +17,21 @@ body {
   width: 100%;
 }
 
+.main-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: .9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+}
+
 .main__wrapper {
   margin: 0px;
   padding: 0px;
@@ -36,6 +51,7 @@ body {
 /*-----------*/
 .header {
   position: relative;
+  opacity: .5;
   clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%)
 }
 .header:before {
@@ -200,6 +216,7 @@ body {
 }
 .middle__content {
   color: white;
+  opacity: .2;
 }
 .middle__content .section-title {
   margin-bottom: 30px;
@@ -225,6 +242,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  opacity: .2;
 }
 
 .bottom__content .projects-section .project {
@@ -273,6 +291,7 @@ body {
 }
 .footer__content {
   color: white;
+  opacity: .2;
 }
 .footer__content a {
   color: #fff;
