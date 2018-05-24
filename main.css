@@ -34,6 +34,7 @@ body {
   url('img/black-and-white-surf.jpg');
   background-size: cover;
   height: 550px;
+  height: 70vh;
   background-position-y: 50%;
   display: flex;
   align-items: center;
